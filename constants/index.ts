@@ -6,12 +6,12 @@ export const sidebarLinks = [
     },
     {
         lable: 'Upcoming',
-        imgUrl: '/icons/Upcoming.svg',
+        imgUrl: '/icons/upcoming.svg',
         route:'/upcoming',
     },
     {
         lable: 'Previous',
-        imgUrl: '/icons/Previous.svg',
+        imgUrl: '/icons/previous.svg',
         route:'/previous',
     },
     {
@@ -21,7 +21,7 @@ export const sidebarLinks = [
     },
     {
         lable: 'Personal Room',
-        imgUrl: '/icons/add-Personal.svg',
+        imgUrl: '/icons/add-personal.svg',
         route:'/personal-room',
     },
 
