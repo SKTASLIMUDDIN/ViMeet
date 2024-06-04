@@ -32,7 +32,7 @@ const Home = () => {
       <div className='h-[260px] w-full rounded-[20px] bg-hero bg-cover'>
         <div className='flex h-full flex-col justify-between max-md:px-5 max-md:py-8 lg:p-11'>
           <h1 className='glassmorphism max-w-[285px] rounded py-2 text-center text-base font-normal'>
-            Welcome{ `${user?.username}`}
+            Hey <b>{`${user?.username}`}</b>, Welcome to Yoom!
           </h1>
           <div className='flex flex-col gap-2'>
             <h1 className='text-3xl font-extrabold lg:text-4xl'>
