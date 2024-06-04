@@ -34,8 +34,8 @@ const MobileNav = () => {
         alt='Yoom logo'
         className='max-sm:size-10'
         />
-        <p className='text[25px] font-extrabold
-        text-white max-sm:hidden'><b>Yoom</b></p>
+        <p className='text[26px] font-extrabold
+        text-white'>Yoom</p>
       </Link>
 
       <div className="flex h-[calc(100vh-72px)] 
