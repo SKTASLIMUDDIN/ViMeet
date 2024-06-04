@@ -2,8 +2,10 @@
 
 import React, { useState, useEffect } from 'react';
 import MeetingTypeList from '@/components/MeetingTypeList';
+import { useUser } from '@clerk/nextjs';
 
 const Home = () => {
+  const {user} = useUser();
   const [currentTime, setCurrentTime] = useState('');
   const [currentDate, setCurrentDate] = useState('');
 
@@ -30,7 +32,7 @@ const Home = () => {
       <div className='h-[260px] w-full rounded-[20px] bg-hero bg-cover'>
         <div className='flex h-full flex-col justify-between max-md:px-5 max-md:py-8 lg:p-11'>
           <h1 className='glassmorphism max-w-[285px] rounded py-2 text-center text-base font-normal'>
-            Welcome to Yoom meeting
+            Welcome{ `${user?.username}`}
           </h1>
           <div className='flex flex-col gap-2'>
             <h1 className='text-3xl font-extrabold lg:text-4xl'>
